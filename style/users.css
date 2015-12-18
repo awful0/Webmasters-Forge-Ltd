@@ -1,0 +1,88 @@
+html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+body {
+    width: 100%;
+    min-height: 90%;
+    margin: 0 auto;
+    font: 14px Verdana, sans-serif;
+    -moz-background-size: 100%;
+    -webkit-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+}
+
+#fonfg {
+   background: rgba(24,24,24,0.1);
+   width: 100%;
+   height: 100%;
+   position: fixed;
+   z-index: -999;
+}
+
+#fonbg img {
+   width: 100%;
+   height: 100%;
+   position: fixed;
+   z-index: -1000;
+}
+
+.wrapper {
+    width: 100%;
+    padding: 60px 0;
+}
+
+.content {
+    max-width: 40%;
+    min-width: 700px;
+    min-height: 800px;
+    margin: 0 auto;
+    position: relative;
+    background: rgba(255,255,255,0.6);
+    padding: 20px;
+    border-radius: 14px;
+    box-shadow: 0 8px 10px rgba(0,0,0,0.6);
+}
+
+.lcont {
+    min-width: 200px;
+    height: 200px;
+    float: left;
+}
+
+.lcont img {
+    max-width: 280px;
+}
+
+.rcont {
+    min-width: 55%;
+    height: 200px;
+    float: right;
+    margin-left: 1%;
+}
+
+.rcont p {
+    margin: 1px 5px;
+}
+
+#close {
+    font-size: 25px;
+    cursor: pointer;
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    text-decoration: none;
+    color: grey;
+    border: none;
+}
+
+#close:hover {
+    font-size: 28px;
+    color: #000;
+}
+.clear {
+    clear: left;
+    clear: right;
+}
